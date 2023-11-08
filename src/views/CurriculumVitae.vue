@@ -1,9 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ContentHead from '../components/ContentHead.vue'
+</script>
 
 <template>
   <div class="outer-wrap">
     <div class="header-area">实事求是，敢为人先</div>
-    <div class="content-warp"></div>
+    <div class="content-warp">
+      <ContentHead headTitle="个人信息"></ContentHead>
+    </div>
   </div>
 </template>
 
@@ -12,6 +16,7 @@
   border: 1px solid #ccc;
   width: 210mm;
   height: 100vh;
+  color: #333;
   overflow-y: auto;
   padding: 0 20mm;
 }

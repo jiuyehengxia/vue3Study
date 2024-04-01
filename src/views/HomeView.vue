@@ -1,9 +1,11 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="home-outer-wrap">主页内容</div>
 </template>
+
+<style lang="less" scoped>
+.home-outer-wrap {
+  border: 1px solid red;
+}
+</style>
